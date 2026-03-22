@@ -17,7 +17,7 @@
 import hashlib
 import time
 
-nickname = "ye"  # 这里替换成你的昵称
+nickname = "ye"  # 实际输入数据构成（80字节的区块头）：版本号、前一区块的哈希值、梅克尔根（交易数据的哈希）、时间戳、难度目标、Nonce（随机数，这是矿工可以不断调整的变量）
 
 
 def mine(prefix_zeros):
